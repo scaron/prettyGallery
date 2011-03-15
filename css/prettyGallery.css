@@ -1,0 +1,98 @@
+.prettyGalleryContainer {
+	clear: both;
+	float: left;
+	margin: 0 0 10px 0;
+}
+	
+	.prettyGalleryContainer a:focus { outline: none; }
+
+	.prettyGalleryContainer img { border: 0; }
+
+	.prettyGalleryContainer ul {
+		margin: 0;
+		padding: 0;
+	}
+
+		.prettyGalleryContainer ul li {
+			display: block;
+			float: left;
+		}
+		
+			.prettyGalleryContainer ul li a,
+			.prettyGalleryContainer ul li a img { display: block; }
+
+	.prettyGalleryBackground {
+		background: url(../images/prettyGallery/content_background.png) top left repeat;
+		padding: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		margin: 0 0 10px 0;
+	}
+
+	.pp_alignleft { float: left; }
+	.pp_alignright { float: right; }
+	.pp_aligncenter { margin: 0 auto; }
+		
+	.pg_paging .pg_previous {
+		background: url(../images/prettyGallery/pagingNav.png) top left no-repeat;
+		display: block;
+		float: left;
+		height: 14px;
+		margin: 1px 3px 5px 0;
+		overflow: hidden;
+		text-indent: -10000px;
+		width: 9px;
+	}
+		.pg_paging .pg_previous:hover { background-position: 0 -14px; }
+		
+	.pg_paging .pg_next {
+		background: url(../images/prettyGallery/pagingNav.png) top right no-repeat;
+		display: block;
+		float: left;
+		height: 14px;
+		margin: 1px 0 0 3px;
+		overflow: hidden;
+		text-indent: -10000px;
+		width: 9px;
+	}
+		.pg_paging .pg_next:hover { background-position: 100% -14px; }
+		
+		.pg_paging li { text-align: center; }
+		
+		
+	.pg_pages {
+		background: url(../images/prettyGallery/pagingBackgroundLeft.png) top left no-repeat;
+		float: left;
+		padding-left: 8px;
+	}
+	
+		.pg_pages ul {
+			background: url(../images/prettyGallery/pagingBackgroundRight.png) top right no-repeat;
+			float: left;
+			height: 15px;
+			padding-right: 9px;
+		}
+			.pg_pages ul li { line-height: 15px; }
+			
+			.pg_pages ul li.selected { font-weight: bold; }
+		
+		.pg_pages a {
+			color: #fff;
+			font-family: Arial;
+			font-size: 11px;
+			text-decoration: none;
+			padding: 2px;
+		}
+			.pg_pages a:hover { color: #c4c4c4; }
+			
+		.pg_pages a.circle {
+			display: block;
+			background: url(../images/prettyGallery/pagingPageNumber.png) top left no-repeat;
+			height: 8px;
+			margin: 3px 1px 0 3px;
+			padding: 0;
+			text-indent: -10000px;
+			width: 8px;
+		}
+			.pg_pages a.circle:hover,
+			.pg_pages .selected a.circle { background-position: bottom left; }
