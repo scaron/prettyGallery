@@ -2,7 +2,7 @@
 	Class: prettyGallery
 	Use: Gallery plugin for jQuery
 	Author: Stephane Caron (http://www.no-margin-for-errors.com)
-	Version: 1.1
+	Version: 1.1.1
 ------------------------------------------------------------------------- */
 
 jQuery.fn.prettyGallery = function(settings) {
