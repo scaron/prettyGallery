@@ -148,7 +148,7 @@ jQuery.fn.prettyGallery = function(settings) {
 			galleryBorderWidth = parseFloat($theNav.css('border-left-width')) + parseFloat($theNav.css('border-right-width'));
 			$theNav.width(galleryWidth - galleryBorderWidth);
 			$theNav.each(function(){
-				$(this).find('li:eq(1)').width(galleryWidth - galleryBorderWidth - parseFloat($(this).parent().find('ul.prettyNavigation li:first').width()) - parseFloat($(this).parent().find('ul.prettyNavigation li:last').width()));
+				$(this).find('li:eq(1)').width(galleryWidth - galleryBorderWidth - parseFloat($(this).parent().find('ul.pg_paging li:first').width()) - parseFloat($(this).parent().find('ul.pg_paging li:last').width()));
 			});
 
 			// Apply the functions to the buttons

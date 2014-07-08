@@ -38,7 +38,7 @@
 		display: block;
 		float: left;
 		height: 14px;
-		margin: 1px 3px 5px 0;
+		margin: 1px 0 5px 0;
 		overflow: hidden;
 		text-indent: -10000px;
 		width: 9px;
@@ -50,7 +50,7 @@
 		display: block;
 		float: left;
 		height: 14px;
-		margin: 1px 0 0 3px;
+		margin: 1px 0 0 0;
 		overflow: hidden;
 		text-indent: -10000px;
 		width: 9px;
